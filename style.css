@@ -1,0 +1,75 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainsection {
+    display: none;
+}
+
+#joincont {
+    /* border: 2px solid red; */
+    width: 30%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#joincont>input {
+    width: 200px;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: aqua;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.messagebox {
+    /* border: 1px solid red; */
+    width: 40%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.messagebox>input {
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.chatbox {
+    /* border: 1px solid red; */
+    width: 40%;
+    margin: 10px auto;
+}
+
+.texts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    max-height: fit-content;
+    height: 21px;
+}
